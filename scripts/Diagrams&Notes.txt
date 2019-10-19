@@ -7,16 +7,21 @@ Player
    |    +-- Facist
    |    |
    |    +-- Liberal
+   |    |
+   |    +-- Unaff. (for before papers are handed out)
    |
    +-- Role
-        |
-        +-- Chancellor
-        |
-        +-- President
-        |
-        +-- Party Member
-        |
-        +-- Hitler
+   |    |
+   |    +-- Chancellor
+   |    |
+   |    +-- President
+   |    |
+   |    +-- Party Member
+   |    |
+   |    +-- Hitler
+   |
+   +-- Hand?
+    
 
 
 Policy
