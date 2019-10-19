@@ -1,0 +1,63 @@
+Components of Secert Hitler
+
+Player
+   |
+   +-- Party
+   |    |
+   |    +-- Facist
+   |    |
+   |    +-- Liberal
+   |
+   +-- Role
+        |
+        +-- Chancellor
+        |
+        +-- President
+        |
+        +-- Party Member
+        |
+        +-- Hitler
+
+
+Policy
+  |
+  +-- Kind
+       |
+       +-- Liberal
+       |
+       +-- Facist
+
+
+
+Deck
+ |
+ +-- Policies
+ |
+ +-- Shuffle
+
+
+
+ Board
+   | 
+   +-- Kind
+   |     |
+   |     +-- Liberal
+   |     |
+   |     +-- Facist
+   |           |
+   |           +-- Governmental Powers
+   |                       |
+   |                       +-- Look Ahead
+   |                       |
+   |                       +-- Assassinate
+   |     
+   |
+   |
+   |
+   +-- Policy Slot Count
+   |
+   +-- Free Policy Slots
+   |
+   +-- Used Policy Slots
+   |
+   +-- Failed Election Count
