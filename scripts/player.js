@@ -30,7 +30,7 @@ class Hand
             if(this.cards[i] == card) return card;
         }
         if (this.cards.length == 0) throw "No Hand [# 100]";
-        else throw "Selected Card Does Not Exist [# 101]";
+        else throw "Requested Card Does Not Exist [# 101]";
     }
 
     discard(card)
@@ -42,8 +42,9 @@ class Hand
             }
         }
         if(this.cards.length != 0)
-            throw "Selected Card Does Not Exist [# 101]";
+            throw "Requested Card Does Not Exist [# 101]";
     }
+    is_empty(){ this.cards.length == 0 ? true : false;}
     size(){ return this.cards.length; }
     get(){ return this.cards; }
 }
@@ -53,4 +54,43 @@ class Player
     party = Party.Unaffiliated;
     role = Role.Member;
     hand = new Hand();
+
+    constructor(party, role)
+    {
+        this.party = party;
+        this.role = role;
+        this.hand = new Hand();
+    }
+
+    vote()
+    {
+        // get user input and return it
+        // Not sure if this should go in this class or an outside one
+        return;
+    }
+
+    change_role(role)
+    {   
+        if(role == this.role) return;
+        this.role = role;
+    }
+
+    add_card(card)
+    {
+        // Only chancellors and presidents can have cards in hand
+        if(role == Role.Chancellor)
+        {
+            this.hand.add(card);
+        }
+        else if(role == Role.President)
+        {
+            // President can't have more than 2 cards in hand
+            if(this.hand.size < 2) this.hand.add(card);
+        }
+    }
+
+    discard_card(card)
+    {
+        this.hand.discard(card);
+    }
 }
