@@ -23,7 +23,7 @@ enum Identity
     Hitler,
     PartyMember
 };
-enum Card
+enum Policy
 {
     Liberal,
     Facist
@@ -37,6 +37,15 @@ enum BoardType
 {
     Liberal,
     Facist
+};
+enum FacistPower
+{
+    None,
+    PeekPapers_1,
+    PeekPapers_2,
+    PeekPolicies,
+    Execution_1,
+    Execution_2
 };
 
 #endif

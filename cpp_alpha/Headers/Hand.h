@@ -11,7 +11,7 @@
 struct HandNode
 {
     HandNode *next;
-    Card card;
+    Policy card;
 };
 class Hand
 {
@@ -24,10 +24,10 @@ public:
     static Hand* new_hand();
 
     // Accessors
-    Card* get_hand() const;
+    Policy *get_hand() const;
 
     // Modifiers
-    void add_card(Card c, Role r);
+    void add_card(Policy c, Role r);
     void discard_hand(HandNode* n);
 };
 #endif

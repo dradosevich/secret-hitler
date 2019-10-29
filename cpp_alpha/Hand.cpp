@@ -16,21 +16,21 @@ Hand* Hand::new_hand()
     return new Hand();
 }
 
-Card* Hand::get_hand() const
+Policy *Hand::get_hand() const
 {
     int index = 0;
-    Card* cards = new Card[3];
+    Policy *policies = new Policy[3];
     HandNode* start = _head;
     while(start != nullptr)
     {
-        cards[index] = start->card;
+        policies[index] = start->card;
         start = start->next;
         index += 1;
     }
-    return cards;
+    return policies;
 }
 
-void Hand::add_card(Card card, Role role)
+void Hand::add_card(Policy card, Role role)
 {
     if (role != Voter)
     {
