@@ -24,10 +24,11 @@ The 11 Fascist Policy tiles and the 6 Liberal Policy tiles are shuffled into a s
 
 Each player will receive a Secret Role card. The table below determines the correct distribution of roles and whether Hitler knows who the Fascists are or not.
 
-PLAYERS	5	6	7	8	9	10
-Liberals	3	4	4	5	5	6
-Fascists	1+H	1+H	2+H	2+H	3+H	3+H
-Fascists known by Hitler?	Yes	Yes	No	No	No	No
+| PLAYERS	| 5	| 6	| 7	| 8	| 9	| 10 |
+|---------|---|---|---|---|---|----|
+| Liberals | 3 | 4 | 4 | 5 | 5 | 6 |
+| Fascists | 1+H | 1+H | 2+H | 2+H | 3+H | 3+H |
+| Fascists known by Hitler? | Yes | Yes | No | No | No | No |
 
 ## GAMEPLAY
 
@@ -35,25 +36,28 @@ Secret Hitler is played in rounds. Each round has an Election to form a governme
 
 ## ELECTION
 
+**1. New President**
 At the beginning of a new round, the President placard moves right to the next player, who is the new Presidential Candidate.
 
-2. Nominate a Chancellor
+**2. Nominate a Chancellor**
 
 The Presidential Candidate chooses a Chancellor Candidate by selecting any other eligible player. The Presidential Candidate is free to discuss Chancellor options with the table to build consensus and make it more likely the Government gets elected.
 
-Eligibility:
+#### Eligibility:
 
 The last elected President and Chancellor are "term-limited", and ineligible to be nominated as Chancellor Candidate.
 
-## ON ELIGIBILITY:
-
-Term limits apply to the President and Chancellor who were last elected, not to the last pair nominated.
+> **ON ELIGIBILITY**:
+> 
+> Term limits apply to the President and Chancellor who were last elected, not to the last pair nominated.
 Term limits only affect nominations to the Chancellorship; anyone can be President, even someone who was just Chancellor.
 If there are only five players left in the game, only the last elected Chancellor is ineligible to be Chancellor Candidate; the last President may be nominated.
-There are some other rules that affect eligibility in specific ways: the Veto Power and the Election Tracker. You don’t need to worry about those yet, and we’ll talk about each one in its relevant section.
-3. Vote on the government
+>
+> There are some other rules that affect eligibility in specific ways: the Veto Power and the Election Tracker. You don’t need to worry about those yet, and we’ll talk about each one in its relevant section.
 
-Once the Presidential Candidate has chosen an eligible Chancellor Candidate, players may discuss the proposed government until everyone has cast their votes. All players, including the President and Chancellor Candidate, vote on the proposed government. Once everyone has cast their vote, the Ballot cards are revealed simultaneously.
+**3. Vote on the government**
+
+Once the Presidential Candidate has chosen an eligible Chancellor Candidate, players may discuss the proposed government until everyone has cast their votes. All players, including the President and Chancellor Candidate, vote on the proposed government. Once everyone has cast their vote, the Ballot cards are revealed simultaneously.*
 
 If the vote is a tie, or if a majority of players votes no:
 
@@ -63,13 +67,11 @@ Election Tracker: If the group rejects three governments in a row, the country i
 
 Any time a new Policy is enacted for any reason, the Election Tracker is reset.
 
-If a majority of players vote yes:
+* *If a majority of players vote yes:*
+  * The Presidential Candidate and Chancellor Candidate become the new President and Chancellor, respectively.
 
-The Presidential Candidate and Chancellor Candidate become the new President and Chancellor, respectively.
-
-If three or more Fascist Policies have been enacted and a majority of players vote yes:
-
-If the new Chancellor is Hitler, the game is over and the Fascists win. If the game didn't end, other players will know for sure the Chancellor is not Hitler.
+* *If three or more Fascist Policies have been enacted and a majority of players vote yes:*
+  * If the new Chancellor is Hitler, the game is over and the Fascists win. If the game didn't end, other players will know for sure the Chancellor is not Hitler.
 
 ## LEGISLATIVE SESSION
 
